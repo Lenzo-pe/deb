@@ -1,0 +1,21 @@
+Done:
+ft_after.c
+ft_converter_htoa.c 
+ft_converter_itoa.c 
+ft_converter_ptoa.c 
+ft_conversor_utoa.c
+ft_printf.c
+ft_printf_utils.c
+ft_printf_utils2.c
+ft_printf_utils3.c
+ft_conversor_utils.c
+ft_after_utils.c
+ft_printf.h
+ft_width.c
+ft_parameter_p.c
+ft_parameter_s.c
+
+TODO:
+ft_flag.c 					Divide
+ft_precision.c				Divide
+ft_printf_output_utils.c	Divide
