@@ -1,1 +1,0 @@
-norminette ft_after.c ft_converter_htoa.c ft_converter_itoa.c ft_converter_ptoa.c ft_converter_utoa.c ft_printf.c ft_printf_utils.c ft_printf_utils2.c ft_printf_conversor_utils.c ft_printf_after_utils.c ft_printf.h ft_width.c ft_printf_utils3.c ft_parameter_s.c ft_parameter_p.c
