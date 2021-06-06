@@ -48,12 +48,10 @@ struct s_flag_stats
 	int			flag_current;
 };
 
-
-void	ft_putchar_fd(char c, int fd);
 char			*x_times_zero(int d);
 void			*ft_memcpy(void *dest, const void *src, size_t n);
 void			ft_htoa_calc(char *result, char *p, unsigned int n);
-size_t			ft_len_after(const char *format);
+int				ft_len_after(const char *format);
 char			*pointeraddress(unsigned long int n);
 char			*ft_strdup(const char *s);
 void			ft_parameter_s(char *pointer, struct s_var *global);

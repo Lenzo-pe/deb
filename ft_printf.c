@@ -47,9 +47,9 @@ void	reset_global(struct s_var *global)
 	global->precision_size = 0;
 }
 
-size_t	ft_len_after(const char *format)
+int	ft_len_after(const char *format)
 {
-	size_t	i;
+	int	i;
 
 	i = 0;
 	while (is_type(format[i]) == 0)
@@ -59,9 +59,9 @@ size_t	ft_len_after(const char *format)
 
 int	ft_printf(const char *format, ...)
 {
+	unsigned int	i;
 	struct s_var	global;
 	va_list			lista;
-	size_t			i;
 
 	init_global(&global);
 	va_start(lista, format);
@@ -77,7 +77,8 @@ int	ft_printf(const char *format, ...)
 			reset_global(&global);
 		}
 		else
-			ft_putchar_fd(1, format[i]);
+			ft_putsomething(false, format[i], 0, &global);
+		i++;
 	}
 	va_end(lista);
 	return (global.final_size);
